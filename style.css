@@ -1,0 +1,42 @@
+html, body {
+    margin: 0; /* Eliminar márgenes */
+    padding: 0; /* Eliminar rellenos */
+    height: 100%; /* Asegurar que ocupen toda la ventana */
+    overflow: hidden; /* Eliminar scroll innecesario */
+  }
+  
+body{
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 100vh; /* Altura de la ventana */
+    background: linear-gradient(to bottom, #0B3D91, #388E3C); /* Degradado azul y verde */
+    background-image: url('https://w.wallhaven.cc/full/4x/wallhaven-4xppxz.jpg'); /* Fondo con imagen navideña */
+    background-size: cover; /* Que la imagen cubra toda la pantalla */
+    background-position: center; /* Centrado de la imagen */
+    font-family: 'Georgia', serif;
+}
+.temporizador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #D32F2F; /* Borde rojo navideño */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Sombra elegante */
+    text-align: center;
+    padding: 30px;
+
+}
+.timer p {
+    color: #D32F2F; /* Rojo navideño */
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.timer h1 {
+    font-size: 4rem;
+    color: #035818; /* Dorado */
+    margin: 10px 0 0 0;
+    font-weight: bold;
+}
