@@ -19,6 +19,12 @@ function cuentaRegresivaNavidad() {
 
     // Mostrar el tiempo restante en el elemento con la ID 'timer'
     document.getElementById('timer').innerHTML = `${dias}d ${horas}h ${minutos}m ${segundos}s`;
+
+        // Si la cuenta regresiva llega a cero, abrir el enlace
+        if (diferencia <= 0) {
+            // Cambia el URL a lo que desees
+            window.location.href = "https://youtu.be/K-KiXxf4Uls?si=Pvi3v-VFtbRVYxIm"; // Reemplaza esta URL
+        }
 }
 
 // Actualizar la cuenta regresiva cada segundo
